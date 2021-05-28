@@ -1,0 +1,47 @@
+{
+    "name": "datatables.net-rowreorder-bm",
+    "description": "RowReorder for DataTables with styling for [Bulma](https://bulma.io/)",
+    "main": "js/rowReorder.bulma.js",
+    "style": "css/rowReorder.bulma.css",
+    "version": "1.2.7",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js"
+    ],
+    "keywords": [
+        "RowReorder",
+ "Row Reordering",
+        "Bulma",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-rowreorder": ">=1.2.7",
+        "datatables.net-bm": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-RowReorder-Bulma.git"
+    }
+}

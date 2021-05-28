@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/rowReorder.bulma.js",
+        "js/rowReorder.bulma.min.js"
+    ],
+    "css": [
+        "css/rowReorder.bulma.css",
+        "css/rowReorder.bulma.min.css"
+    ],
+    "types": [
+        "types/rowReorder.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/RowReorder",
+    "last-tag": "1.2.7"
+}
