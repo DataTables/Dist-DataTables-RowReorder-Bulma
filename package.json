@@ -11,7 +11,7 @@
     ],
     "keywords": [
         "RowReorder",
-        "Row Reordering",
+ "Row Reordering",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowreorder": ">=1.2.7",
-        "datatables.net-bm": ">=1.10.24",
+        "datatables.net-rowreorder": ">=1.2.8",
+        "datatables.net-bm": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [
