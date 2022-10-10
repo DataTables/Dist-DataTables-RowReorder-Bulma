@@ -2,12 +2,14 @@
     "name": "datatables.net-rowreorder-bm",
     "description": "RowReorder for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/rowReorder.bulma.js",
+    "module": "js/rowReorder.bulma.mjs",
     "style": "css/rowReorder.bulma.css",
     "types": "./types/rowReorder.bulma.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
