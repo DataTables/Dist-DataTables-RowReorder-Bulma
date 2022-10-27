@@ -4,7 +4,7 @@
     "main": "js/rowReorder.bulma.js",
     "module": "js/rowReorder.bulma.mjs",
     "style": "css/rowReorder.bulma.css",
-    "types": "./types/rowReorder.bulma.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.2.8",
     "files": [
         "css/**/*.css",

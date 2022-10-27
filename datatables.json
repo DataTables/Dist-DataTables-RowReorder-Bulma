@@ -10,7 +10,8 @@
         "css/rowReorder.bulma.min.css"
     ],
     "types": [
-        "types/rowReorder.bulma.d.ts"
+        "types/rowReorder.bulma.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/RowReorder",
     "last-tag": "1.2.8"
