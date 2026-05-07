@@ -1,14 +1,11 @@
-/*! Bulma styling wrapper for RowReorder
- * © SpryMedia Ltd - datatables.net/license
+/*! RowReorder Bulma styling 2.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-bm';
 import RowReorder from 'datatables.net-rowreorder';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 
 export default DataTable;
+
