@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowreorder-bm",
     "description": "RowReorder for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/rowReorder.bulma.js",
-    "module": "js/rowReorder.bulma.mjs",
-    "style": "css/rowReorder.bulma.css",
+    "main": "./js/rowReorder.bulma.js",
+    "module": "./js/rowReorder.bulma.mjs",
+    "style": "./css/rowReorder.bulma.css",
     "types": "./types/rowReorder.bulma.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowReorder",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowReorder.bulma.d.ts",
+            "import": "./js/rowReorder.bulma.mjs",
+            "default": "./js/rowReorder.bulma.mjs",
+            "require": "./js/rowReorder.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowReorder.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
