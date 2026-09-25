@@ -1,4 +1,4 @@
-/*! RowReorder Bulma styling 2.1.0 for DataTables
+/*! RowReorder Bulma styling 2.1.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-bm";import RowReorder from"datatables.net-rowreorder";export default DataTable;
